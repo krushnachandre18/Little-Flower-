@@ -1,0 +1,108 @@
+
+.inquiry-section {
+  padding: 85px 8%;
+  background: #f3f6fb;
+}
+
+.inquiry-heading {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.inquiry-heading p {
+  color: #d99a22;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.inquiry-heading h2 {
+  color: #123d78;
+  font-size: clamp(28px, 4vw, 38px);
+  margin-bottom: 12px;
+}
+
+.inquiry-heading span {
+  color: #647084;
+  font-size: 14px;
+}
+
+.inquiry-form {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 35px #102b5010;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.inquiry-form input,
+.inquiry-form select,
+.inquiry-form textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #dce3ed;
+  border-radius: 6px;
+  outline: none;
+  background: white;
+  color: #172033;
+  font-size: 14px;
+}
+
+.inquiry-form input:focus,
+.inquiry-form select:focus,
+.inquiry-form textarea:focus {
+  border-color: #245ba6;
+}
+
+.inquiry-form textarea {
+  margin-top: 16px;
+  resize: vertical;
+}
+
+.inquiry-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  background: #16834b;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.inquiry-btn:hover {
+  background: #10683b;
+}
+
+.inquiry-form small {
+  display: block;
+  margin-top: 12px;
+  color: #647084;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .inquiry-section {
+    padding: 60px 5%;
+  }
+
+  .inquiry-form {
+    padding: 20px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
