@@ -570,3 +570,8 @@ input,
 textarea {
   font: inherit;
 }
+.school-logo {
+  width: 60px;
+  height: 100%;
+  object-fit: contain;
+}
