@@ -15,7 +15,7 @@ function App() {
         <a href="#home" className="logo">
           <span className="logo-icon">LF</span>
            <img
-  src="/images/logo.png"
+  src="/images/Logo.png"
   alt="Little Flower School Logo"
   className="school-logo"
 />         
