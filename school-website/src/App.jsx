@@ -14,6 +14,11 @@ function App() {
       <nav className="navbar">
         <a href="#home" className="logo">
           <span className="logo-icon">LF</span>
+           <img
+  src="/images/logo.png"
+  alt="Little Flower School Logo"
+  className="school-logo"
+/>         
           <span>
             <strong>Little Flower</strong>
             <small>English Medium School</small>
