@@ -184,7 +184,7 @@ function App() {
 
           <figure className="gallery-card">
             <img
-              src="/images/activities.jpg"
+              src="/images/activites.jpg"
               alt="School activities"
               loading="lazy"
             />
