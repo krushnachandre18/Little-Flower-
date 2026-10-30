@@ -553,6 +553,7 @@ img {
 
   .footer {
     padding: 35px 5% 20px;
+    
   }
 
   .footer-links {
@@ -563,4 +564,9 @@ img {
     right: 12px;
     bottom: 12px;
   }
+}
+button,
+input,
+textarea {
+  font: inherit;
 }
