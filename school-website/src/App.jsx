@@ -273,7 +273,19 @@ function App() {
           School. All rights reserved.
         </p>
       </footer>
+      <div className="developer-credit">
+  <p>
+    Designed & Developed by{" "}
+    <strong>KC18 Technologies</strong>
+  </p>
 
+  <p>
+    Contact:{" "}
+    <a href="tel:+918208912993">
+      +91 82089 12993
+    </a>
+  </p>
+</div>
       {/* Floating WhatsApp Contact */}
       <a
         className="whatsapp-float"
