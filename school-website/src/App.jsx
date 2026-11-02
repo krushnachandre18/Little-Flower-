@@ -1,4 +1,4 @@
-
+import FeaturedVideos from "./components/FeaturedVideos";
 import AdmissionInquiry from "./components/AdmissionInquiry";
 import "./App.css";
 
