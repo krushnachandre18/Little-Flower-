@@ -5,17 +5,17 @@ const videos = [
   {
     title: "School Activities",
     description: "A glimpse of activities and learning at our school.",
-    src: "/videos/school-activities.mp4",
+    src: "/video/school-activities.mp4",
   },
   {
     title: "Annual Function",
     description: "Memorable moments from our school celebrations.",
-    src: "/videos/annual-function.mp4",
+    src: "/video/annual-function.mp4",
   },
   {
     title: "Sports Day",
     description: "Celebrating teamwork, energy and sportsmanship.",
-    src: "/videos/sports-day.mp4",
+    src: "/video/sports-day.mp4",
   },
 ];
 
