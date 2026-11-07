@@ -1,7 +1,7 @@
 
 import "./FeaturedVideos.css";
 
-const videos = [
+const video = [
   {
     title: "School Activities",
     description: "A glimpse of activities and learning at our school.",
