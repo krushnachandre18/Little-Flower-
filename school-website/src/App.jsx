@@ -197,6 +197,7 @@ function App() {
           </figure>
         </div>
       </section>
+      <FeaturedVideos />
 
       {/* Admission */}
       <section id="admission" className="admission-section">
